@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "babel ./src --out-dir build",
     "start": "node ./build/server",
-    "lint": "./node_modules/.bin/eslint ./app",
+    "lint": "./node_modules/.bin/eslint ./src",
     "pretty": "prettier --write \"**/*.{js,jsx,json}\" \"!node_modules/**\"",
     "postpretty": "yarn lint --fix"
   },
